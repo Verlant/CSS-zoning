@@ -1,0 +1,54 @@
+body {
+  border: 10px solid grey;
+}
+header {
+  background-color: #f1ae7a;
+  border: 2px solid black;
+  height: 150px;
+  width: auto;
+  text-align: center;
+  position: top;
+}
+nav {
+  background-color: #b5e0e6;
+  border: 2px solid black;
+  margin: 10px 0px 10px 0px;
+}
+main {
+  margin: 0px 0px 10px 0px;
+}
+section {
+  background-color: #d8d8d8;
+  border: 2px solid black;
+  margin: 0px 10px 0px 0px;
+  height: 500px;
+  width: 500px;
+  position: right;
+}
+section > article {
+  height: 100px;
+  width: 250px;
+}
+section > div {
+  height: 100px;
+  width: 250px;
+}
+section + aside {
+  position: right;
+}
+article {
+  background-color: #8db1e3;
+  border: 2px solid black;
+}
+
+aside {
+  background-color: #d99690;
+  border: 2px solid black;
+}
+footer {
+  background-color: #d3d4ac;
+  border: 2px solid black;
+  height: 100px;
+  position: bottom;
+  text-align: center;
+}
